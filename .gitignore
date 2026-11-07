@@ -1,0 +1,23 @@
+# Local AiderDesk state and Aider history
+.aider-desk/
+.aider*.history
+.aider.tags.cache*/
+
+# Extension-local dependencies and development outputs
+node_modules/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+
+# Local credentials (sanitized examples may be committed)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Do not blanket-ignore dist/ or lockfiles: a contributed extension may need
+# reviewed runtime artifacts and reproducible dependency metadata.
